@@ -6,13 +6,17 @@ exports[`should render ExpenseListItem with an expense 1`] = `
     <NavLink
       activeClassName="active"
       ariaCurrent="true"
-      to="/edit/1"
+      to="/edit/3"
     >
-      Gum
+      Credit Card
     </NavLink>
   </h3>
   <p>
-    $1.95 -  - Wednesday, December 31st 1969
+    $45.00
+    -
+    -
+    Sunday, January 4th 1970
+    }
   </p>
 </div>
 `;
