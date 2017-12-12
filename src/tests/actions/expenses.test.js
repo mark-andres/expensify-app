@@ -130,7 +130,7 @@ test('should remove expense from firebase', (done) => {
 
         return database.ref(`expenses/${id}`).once('value')
     }).then((snapshot) => {
-        expect(snapshot.val()).toEqual(null)
+        expect(snapshot.val()).toBeFalsy()
         done()
     })
 
